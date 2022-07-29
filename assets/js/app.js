@@ -38,19 +38,10 @@ transformadas em json
             }
           }
         }).catch(e => console.warn(e))
-// a extensão serve para trabalhar o vetor apos seus elementos ja terem sido transformados 
-// basicamente escrevendo a lista html de forma automatica pelo javascript através do reduce()   
+ 
 }
  
 
 
 fetchpokemon()   
     
- /* .then((pokemon) => {
-            console.log(pokemon)
-          let lista = document.querySelector('.pokedex')
-          let li = document.createElement('li')
-            li.setAttribute('id', pokemon.id)
-            li.innerHTML= `${pokemon.name} ${pokemon.id} `
-            lista.appendChild(li)
-        })*/
